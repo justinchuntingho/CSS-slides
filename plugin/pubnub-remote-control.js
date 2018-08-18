@@ -13,8 +13,8 @@
     var PubnubRemoteControl = (function () {
 
         var defaultProperties = {
-            subscribeKey: 'pub-c-05fc2891-c6ed-421a-bfa5-a030fcd925b5',
-            publishKey: 'sub-c-ea1f4512-a258-11e8-89c5-e2f2efdc17a6',
+            subscribeKey: null,
+            publishKey: null,
             inputChannel: 'input',
             outputChannel: 'output'
         };

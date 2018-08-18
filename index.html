@@ -149,6 +149,10 @@
             // - https://github.com/hakimel/reveal.js#configuration
             // - https://github.com/hakimel/reveal.js#dependencies
             Reveal.initialize({
+                pubnubRemoteControl: {
+                subscribeKey: 'sub-c-ea1f4512-a258-11e8-89c5-e2f2efdc17a6',    // PubNub subscribe key,
+                publishKey: 'pub-c-05fc2891-c6ed-421a-bfa5-a030fcd925b5',        // PubNub publish key
+                },
                 dependencies: [
                     { src: 'plugin/markdown/marked.js' },
                     { src: 'plugin/markdown/markdown.js' },
